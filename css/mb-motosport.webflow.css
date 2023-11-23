@@ -59,10 +59,21 @@ h6 {
 
 p {
   margin-bottom: 0;
+  line-height: 1.8;
 }
 
 a {
   text-decoration: none;
+  color: white;
+  transition: all .25s;
+}
+
+a:hover {
+  color: #7a151b;
+}
+
+.r_footer a:hover {
+  color: black;
 }
 
 ul, ol {
@@ -96,7 +107,7 @@ figure {
 }
 
 .r_section {
-  padding: 100px 5%;
+  padding: 100px 5% 200px 5%;
   position: relative;
   overflow: hidden;
 }
@@ -109,8 +120,8 @@ figure {
 
 .r_section.r_hero {
   background-color: #7a151b;
-  padding-top: 310px;
-  padding-bottom: 250px;
+  padding-top: 200px;
+  padding-bottom: 350px;
 }
 
 .r_section.r_light_bg {
@@ -119,11 +130,6 @@ figure {
 
 .r_section.r_light_bg1 {
   background-color: #171717;
-}
-
-.r_section.padding {
-  padding-top: 160px;
-  padding-bottom: 160px;
 }
 
 .r_bold {
@@ -380,7 +386,7 @@ figure {
 
 .r_bg_img {
   position: absolute;
-  top: 0%;
+  top: -10%;
   bottom: 0%;
   left: 0%;
   right: 0%;
@@ -389,6 +395,7 @@ figure {
 .r_bg_img.top {
   justify-content: center;
   display: flex;
+  /* top:0; */
   bottom: auto;
 }
 
@@ -412,6 +419,9 @@ figure {
   min-width: 1440px;
   object-fit: cover;
 }
+
+#hero_m {display: none;}
+#hero_d {display: block;}
 
 @media screen and (min-width: 1280px) {
   .r-left-grid, .r-right-grid {
@@ -540,6 +550,12 @@ figure {
   .r_bg_img.bottom-footer {
     max-height: 7rem;
   }
+  .r_section.r_hero {
+    padding-top: 150px;
+  }
+  .r_bg_img {
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -564,6 +580,18 @@ figure {
   .r-price-text {
     font-size: 2rem;
   }
+
+    
+  .r_bg_img {
+    top: -30%;
+  }
+
+  .r_section.r_hero {
+    padding-top: 150px;
+  }
+
+  #hero_m {display: block;}
+  #hero_d {display: none;}
 
   .r_footer_link {
     font-size: 1.25rem;
