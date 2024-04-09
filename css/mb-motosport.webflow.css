@@ -69,7 +69,7 @@ a {
 }
 
 a:hover {
-  color: #7a151b;
+  color: #ad0712;
 }
 
 .r_footer a:hover {
@@ -113,13 +113,13 @@ figure {
 }
 
 .r_section.r_footer {
-  background-color: #7a151b;
+  background-color: #ad0712;
   padding-top: 200px;
   padding-bottom: 330px;
 }
 
 .r_section.r_hero {
-  background-color: #7a151b;
+  background-color: #ad0712;
   padding-top: 200px;
   padding-bottom: 350px;
 }
@@ -253,7 +253,7 @@ figure {
 }
 
 .r-position-text {
-  color: #7a151b;
+  color: #ad0712;
   text-transform: uppercase;
   margin-top: .75rem;
   margin-bottom: 2rem;
@@ -357,7 +357,7 @@ figure {
 }
 
 .r-price-text {
-  color: #7a151b;
+  color: #ad0712;
   text-transform: uppercase;
   margin-bottom: .75rem;
   font-family: Oswald-custom, sans-serif;
